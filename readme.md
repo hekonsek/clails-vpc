@@ -5,4 +5,4 @@ This is Terraform module for AWS VPC. It follows the following common design of 
 - 3 private subnets in 3 different AZs
 - NAT gateway for egres communication for private subnets 
 
-![](arch.png)
+![](arch.png | =250x)
