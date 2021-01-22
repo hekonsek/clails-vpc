@@ -1,0 +1,11 @@
+@startuml
+frame VPC {
+  node PublicSubnets as "Public Subnets"
+  node PrivateSubnets as "Private Subnets"
+  node NAT as "NAT Gateway"
+}
+cloud Internet
+PrivateSubnets --> NAT
+NAT --> Internet
+PublicSubnets --> Internet
+@enduml
