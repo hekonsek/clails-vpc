@@ -6,5 +6,5 @@ This is Terraform module for AWS VPC. It follows the following common design of 
 - NAT gateway for egres communication for private subnets 
 
 <p align="center">
-  <img src="./arch.png" width="300" />
+  <img src="./arch.png" width="400" />
 </p>
