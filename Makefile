@@ -1,4 +1,4 @@
-all: test
+all: tests
 
-test:
+tests:
 	go test vpc_test.go -v
